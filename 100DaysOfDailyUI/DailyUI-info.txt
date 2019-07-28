@@ -1,0 +1,470 @@
+1. Sign Up
+- Design Hint: Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image.
+- Technologies: AngularJs, AngularJS Material
+- Video: https://youtu.be/1SQZl5raVvY
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/yrVOgG
+- Github: https://github.com/EleftheriaBatsou/day1-signupform-dailyui
+
+2. Credit Card Checkout
+- Design Hint: Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc.
+- Technologies: AngularJs, AngularJS Material
+- Video: https://youtu.be/0W20WI3sKLU
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/OGpGOY
+- Github: https://github.com/EleftheriaBatsou/d2-dailycheckout/tree/master/100DaysOfDailyUI/2.card
+
+
+3. Landing Page
+-Design Hint: What's the main focus? Is it for a book, an album, a mobile app, a product? Consider important landing page elements (call-to-actions, clarity, etc.) 
+- Technologies: AngularJs, AngularJS Material
+- Video: https://youtu.be/OQVMmrvYFkY
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/MRObzy?editors=0100
+- Github: https://github.com/EleftheriaBatsou/day3-landingpage-dailyui/tree/master/100DaysOfDailyUI/3.LandingPageShopify
+- Inspiration: https://www.shopify.com/free-trial
+
+
+4. Calculator
+-Design Hint: Design a calculator. Standard, scientific, or specialty calculator for something such as a mortgage? Is it for a phone, a tablet, a web app? 
+- Technologies:AngularJs, AngularJS Material
+- Video: https://youtu.be/0wj2uOCIM8Y
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/OGOjGQ?editors=1000
+- Github: https://github.com/EleftheriaBatsou/day4-calculator-dailyui/tree/master/100DaysOfDailyUI/4.Calculator
+- Inpiration: My native phone app
+
+
+5. App Icon
+ - Design Hint: Design an app icon. What best represents the brand or product? Or is it incredibly unique? Does it look great at a distance and does it stand out when put on your home screen alongside other apps?
+- Technologies: Html, css
+- Tools used: https://bennettfeely.com/clippy/
+- Video: https://youtu.be/HjJ_u2xwUyo
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/QPaBRK?editors=0100
+- Github: https://github.com/EleftheriaBatsou/day5-appicon-dailyui/tree/master/100DaysOfDailyUI/5.AppIcon
+
+
+6. User Profile
+- Design Hint: Design a user profile and be mindful of the most important data, names, imagery, placement, etc. Is it for a serious profile? A social profile? (It's up to you!) 
+- Technologies: AngularJs, AngularJS Material
+- Inspiration: Game of Thrones
+- Video: https://youtu.be/LwrefhOd1C8
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/qwovNa?editors=1000
+- Github: https://github.com/EleftheriaBatsou/day7-settings-dailyUI/tree/master/100DaysOfDailyUI/6.UserProfile
+
+
+
+7. Settings
+- Design Hint: Design settings for something. Is it for security or privacy settings? Game settings? What is it and what's important? (It's up to you!)
+- Technologies: AngularJs, AngularJS Material
+- Inpiration: Things on youtube
+- Video: https://youtu.be/5wjyHBDSCrA
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/QPmoZe?editors=1000
+- Github: https://github.com/EleftheriaBatsou/day7-settings-dailyUI/tree/master/100DaysOfDailyUI/7.settings
+
+
+
+8. 404 Page
+- Design Hint: Design a 404 page. Does it suit the brand's style? Is it user-friendly? It might sound mundane, but not evertyhing can be flash or glamorous. Every day millions of people will be landing on 404 pages. You have an opportunity to help them in a way that's useful and asthetically pleasing.(It's up to you!)
+- Technologies: AngularJs, AngularJS Material
+- Tools used: http://animista.net/
+- Video: https://youtu.be/gIW96nqwIQQ
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/ROyEjE
+- Github: https://github.com/EleftheriaBatsou/day8-pageNotFound-dailyUI/tree/master/100DaysOfDailyUI/8.pageNotFound
+
+9. Music Player
+- Design Hint: Design a music player. Consider the controls, placements, imagery such as the artist or album cover, etc. Also, consider the device type that's playing the music. A dashboard in a tourbus, a smartwatch, or via a web browser. Each deveice type will have different requirements, features, and restrictions to consider.
+- Technologies: AngularJs, AngularJS Material
+- Image used: https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/f0/f9/9f/f0f99fa4-3685-cf99-9676-3b303e22fbf7/source/1200x1200bb.jpg
+- Tools used: https://www.flaticon.com
+- Video: https://youtu.be/uocvezOpPqA
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/dLKyNp
+- Github: https://github.com/EleftheriaBatsou/day9-musicPlayer-dailyUI/tree/master/100DaysOfDailyUI/9.musicPlayer
+
+10. Social Share
+- Design Hint: Design a social share button/icon and be mindful of the size, imagery, placement, and purpose for sharing.
+- Technologies: AngularJs, AngularJS Material
+- Tools used: https://fonts.google.com/specimen/Pacifico?selection.family=Cute+Font|Pacifico and http://animista.net/play/text/tracking-in
+- Video: https://youtu.be/Mq4gIYfezro
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/XQYbPy
+- Github: https://github.com/EleftheriaBatsou/day10-socialShare-dailyUI/tree/master/100DaysOfDailyUI/10.socialShare
+
+
+11. Sign Up (Error message in sign up)
+- Hint: Design a Flash Message with both the outcome for an error and success. Is it for a sign up form? A download/upload message? (As always, it's up to you!)
+- Technologies: AngularJs, AngularJS Material
+- Video: https://youtu.be/nt6lD9astXM
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/vwZQyW?editors=1000
+- Github: https://github.com/EleftheriaBatsou/day11-signUpWithMessages-dailyUI/tree/master/100DaysOfDailyUI/11.signUpError
+
+
+12. E-Commerce Shop (Single Item)
+-Hint: Design an e-commerce shop. Is it simple for a local business or a large online retailer? Is it for clothing, shoes, handmade soap, or something else? 
+Consider the brand, the products offered, product views, product options, desired actions (conversions, product views, etc.) and the users! (As always, it's up to you!)
+- Technologies: AngularJs, AngularJS Material
+- Video: https://youtu.be/SQbkerWkeTc
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/LoLMgq
+- Github: https://github.com/EleftheriaBatsou/day12-ecommerceshop-dailyUI/tree/master/100DaysOfDailyUI/12.eCommerceShop
+
+13. Direct Messaging
+- Hint: Design a Direct Messaging app, profile, or chatbox. Consider the parties involved in the messages, images, placement, and context of the messages. Are the messages for social purposes? Customer support? 
+- Technologies: AngularJs, MaterialUI
+- Video: https://youtu.be/uWv-u1oxi3c
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/dEzypW
+- Github: https://github.com/EleftheriaBatsou/day13-directMessaging-dailyUI/tree/master/100DaysOfDailyUI/13.directMessaging
+
+14. Countdown Timer
+- Hint: Design a Countdown Timer. Is it for an app? An interface for an oven? A sport related countdown? A launch countdown for NASA? 
+- Video: https://youtu.be/C0d1XT1BRLM
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/BedLbj
+- Github: https://github.com/EleftheriaBatsou/day14-countdowntimer-dailyUI/tree/master/100DaysOfDailyUI/14.countdownTimer
+
+15. On/Off Switch
+- Hint: Design an On/Off Switch. Consider what's being turned on/off and how it should be done. 
+- Technologies: AngularJs, MaterialUI
+- Tools used: for stock images https://unsplash.com/photos/zepnJQycr4U
+- Video: https://youtu.be/3dhjgTeywEg
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/LojjGQ
+- Github: https://github.com/EleftheriaBatsou/day15-onOffSwitch-dailyUI/tree/master/100DaysOfDailyUI/15.onOffSwitch
+
+
+16. Pop-Up / Overlay
+- Hint: Design a Pop-Up/Overlay. Is it a web sign-up form that pops up? Is it an ad overlay?
+- Technologies: AngularJs, MaterialUI
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Github: https://github.com/EleftheriaBatsou/day16-popup-dailyUI/tree/master/100DaysOfDailyUI/16.popupOverlay
+- Video: https://youtu.be/5CH3ttT57Cg
+
+
+17. Email Receipt
+- Hint: Design an Email Receipt. What was purchased? On what date? Consider other elements such as a customer support info, a tracking number, pictures, related items, etc.
+- Technologies: AngularJs, MaterialUI
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/BgWYqo
+- Github: https://github.com/EleftheriaBatsou/day17-emailReceipt-dailyUI/tree/master/100DaysOfDailyUI/17.emailReceipt
+- Video: https://youtu.be/_xjZU0SXTn8
+
+
+18. Analytics Chart
+- Hint: Design an analytics chart. Is it to be used for web or app analytics, a health monitor, e-commerce analytics?
+Consider filters, chart types, and the core features/statistics the user would need most.  (As always, it's up to you!)
+- Technologies: AngularJs, MaterialUI
+- Inpiration: https://dribbble.com/shots/5675893-Daily-UI-18-Analytics-Chart
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/EBWEbJ
+- Github: https://github.com/EleftheriaBatsou/day18-analyticsChart-dailyUI/tree/master/100DaysOfDailyUI/18.analyticsChart
+- Video: https://youtu.be/zStigHTsuqQ
+
+
+19. Leaderboard
+- Hint: Design a leaderboard. Is it for gaming, sports, politics, or something else? Consider the important statistics to show, percentages, points, profile pictures, etc.
+- Technologies: AngularJs, MaterialUI
+- Inpiration: https://collectui.com/challenges/leaderboard
+- Flag icons: https://www.iconfinder.com/iconsets/142-mini-country-flags-16x16px
+- Avatar icons: https://www.flaticon.com/free-icons/profile
+- Github: https://github.com/EleftheriaBatsou/day19-leaderboard-dailyUI/tree/master/100DaysOfDailyUI/19.Leaderboard
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/QXprvY
+- Video: https://youtu.be/MAZ3IGQK4jQ
+
+
+20. Location Tracker
+- Hint: Design a location tracker. Consider the icon, placement, and purpose of location. Mapping something? Is it a tracking beacon? Is the NSA tracking you? ok, maybe they are ;)
+- Technologies: AngularJs, MaterialUI
+- Map image: https://res.cloudinary.com/practicaldev/image/fetch/s--UuIYYroj--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://lawgimenez.me/content/images/2018/09/Google-Map-screenshot.png
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/gNmQVx
+- Github: https://github.com/EleftheriaBatsou/day20-locationTracker-dailyUI/tree/master/100DaysOfDailyUI/20.LocationTracker
+- Video: https://youtu.be/Daz4Drrm2Nk
+
+
+21. Home Monitoring Dashboard
+-Design Hint: Design a home monitoring dashboard. Be creative! What would make a dashboard visually appealing and fun to use, while also being mindful of the data? Try to make it a realistic exercise as if it were your own dashboard... one that you need to refer to daily. What is the most relevant data and what's the most appropriate placement for it?
+- Technologies: AngularJs, MaterialUI
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/VJpgWE
+- Github: https://github.com/EleftheriaBatsou/day21-homeMonitoringDashboard-dailyUI/tree/master/100DaysOfDailyUI/21.HomeMonitoringDashboard
+- Video: https://youtu.be/lfpOYNibEZw
+
+
+22. Search
+- Hint: Design something search related. It could be a search bar, an advanced search window, a search function, etc.
+- Technologies: AngularJs, MaterialUI
+- Angularjs Demo: https://material.angularjs.org/latest/demo/autocomplete
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/xoqBxQ?editors=0010
+- Github: https://github.com/EleftheriaBatsou/day22-search-dailyUI/tree/master/100DaysOfDailyUI/22.Search
+- Video: https://youtu.be/pnpkpW7bHGA
+
+
+23.Onboarding
+- Hint: Design something onboarding related. Are you recruiting people for an organization? To sign up for a new website? A mobile app? 
+- Technologies: AngularJs, MaterialUI
+- Inpiration: https://dribbble.com/shots/2489917-Daily-UI-023-Onboarding
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/KjWEMX
+- Github: https://github.com/EleftheriaBatsou/day23-onBoarding-dailyUI/tree/master/100DaysOfDailyUI/23.onBoarding
+- Video: https://youtu.be/TB_MkVoYY0w
+
+24. Boarding Pass
+- Hint: Design a boarding pass. Consider the origin, the destination, gates, seats, the airline, etc. (As always, it's up to you!) 
+- Technologies: AngularJs, MaterialUI 
+- Inspiration: https://dribbble.com/shots/5508276-Boarding-Pass-Daily-UI-024 and http://collectui.com/designers/error23/boarding-pass
+- QR code generator: https://www.qr-code-generator.com/
+- Qatar Airways logo image: https://seeklogo.net/wp-content/uploads/2014/11/qatar-airways-logo-preview.png
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/xoqeed?editors=1000
+- Github: https://github.com/EleftheriaBatsou/day24-boardingPass-dailyUI/tree/master/100DaysOfDailyUI/24.BoardingPass
+- Video: https://youtu.be/JLpJRUEinFI
+
+
+25.TV App
+- Hint: Design an app for a smart TV. What type of app is it? What are the features/controls? Does it have a carousel selection feature? What it is?  (As always, it's up to you!)
+- Technologies: AngularJs, MaterialUI
+- Inspiration: https://www.behance.net/gallery/43752947/Daily-UI-Tv-App
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/VJpJvJ
+- Github: https://github.com/EleftheriaBatsou/day25-TVapp-dailyUI/tree/master/100DaysOfDailyUI/25.TVapp
+- Video: https://youtu.be/BEwHrFPikEM
+
+
+
+
+
+26.Subscribe
+- Hint: Design a subscribe form, button, widget, etc. What type of information are you looking to capture from the user? Their name and email? Their zip code? Something else? 
+- Technologies: AngularJs, MaterialUI
+- Extra helpful codepen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Image: http://sweetclipart.com/multisite/sweetclipart/files/imagecache/middle/kitten_pink.png
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/qzmwzr
+- Github:https://github.com/EleftheriaBatsou/day26to31-subscribe-dailyUI/tree/master/100DaysOfDailyUI/26-31.Subscribe
+- Video: https://youtu.be/tSVw81vzkDk
+
+27.Dropdown
+- Hint: Design a dropdown element. Is it a menu dropdown? Or a tip that's dropped down during a tutorial? 
+
+28.Contact Us
+- Hint: Design a Contact Us page or form. Is it for customer support? A purchase inquiry? To schedule an appointment? Think about a scenario and the most important feature it would require. 
+
+29.Map
+- Hint: Design a map. Not one of those old school paper ones though. Ok, that might actually be kinda neat too. ;) What type of features should it have? Should its color scheme compliment the brand the map is designed for?
+
+30.Pricing
+- Hint: Design something related to pricing. Is it a pricing table? A restaurant menu with pricing?
+
+31.File Upload
+-Hint: Design a file upload element. Is it the loading screen and icon? A progress element? Are folders being uploaded by flying across the screen like Ghostbusters? ;)
+
+
+32.Crowdfunding Campaign
+- Hint: Design a crowdfunding campaign. Keep in mind the purpose... raising funds. It's important to make it compelling if you're seeking money.
+- Technologies: AngularJs, MaterialUI
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/BgZvYm
+- Github: https://github.com/EleftheriaBatsou/Day32-crowdfundingCampaign-dailyUI/tree/master/100DaysOfDailyUI/32.CrowdfundingCampaign
+- Video: https://youtu.be/ozHA1UUGLkE
+
+33.Customize Product
+- Hint: Design something related to customizing a product. It could be a custom t-shirt, shoes,  etc. 
+- Technologies: AngularJs, MaterialUI
+- Github: https://github.com/EleftheriaBatsou/day35to36-customizeProduct-dailyUI/tree/master/100DaysOfDailyUI/33-35.CustomCarInterface
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/agyNWm
+- Video: https://youtu.be/rwnJDMUQN4Q
+- Extra helpful codepen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+
+34.Car Interface
+-Hint: Design a car interface. Consider the elements you'd want and need in your own dashboard. Be creative, yet logical.
+- Technologies: 
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/agyNWm
+
+35.Blog Post
+- Hint: Design a blog post. Consider what's important- the content of course. Also consider the author, date, category, comments, layout, etc.
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/agyNWm
+
+36.ели Calculator.....
+- Technologies: AngularJs, MaterialUI
+- GitHub:  https://github.com/EleftheriaBatsou/Day36-EMIcalculator-dailyUI/tree/master/100DaysOfDailyUI/36.EMIcalculator
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/orerrm
+- Video: https://youtu.be/3uTkYVxVsSY
+
+37. Weather
+Hint: Design something related to weather. It could be a UI for a mobile app a web app, or something completely different such as a weather alert widget. Consider its elements: city, temperature, forecasts, colors, weather icons/graphics, etc. 
+- Technologies: AngularJs, MaterialUI
+- GitHub: https://github.com/EleftheriaBatsou/Day37to38-WeatherApp-DailyUI/tree/master/100DaysOfDailyUI/37-38.WeatherApp
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/GbMWqJ
+- Video: https://youtu.be/T45Ui4xRzSU
+- Inpiration Codepen for JS: https://codepen.io/danhearn/pen/RVVbQv
+
+38. Calendar
+Hint: Design a Calendar focused element. Is it for scheduling an appointment? A reservation, flight, hotel, or concert calendar? Is it a calendar reminder feature? For email or something else entirely?
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/GbMWqJ
+
+39. Testimonials
+- Technologies: AngularJs, MaterialUI
+- Github: https://github.com/EleftheriaBatsou/Day39to40-Recipe-DailyUI/tree/master/100DaysOfDailyUI/39-40.Recipe
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/ZdrEgQ
+- Video: https://youtu.be/LRbpdq6m5rA
+- Extra helpful codepen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Inpiration: https://dribbble.com/shots/2728283-Daily-UI-040-Recipe
+
+40. Recipe
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/ZdrEgQ
+
+41. Workout Tracker
+Design Hint: Create a UI related to monitoring health or tracking various workout/training routines. It could be for a personal workout, for a team, or even gym equipment tracking someone's workouts.
+- Technologies: AngularJs, MaterialUI
+- Logo design: https://bennettfeely.com/clippy/
+- Basic angularjs template: https://material.angularjs.org/latest/demo/subheader#basic-usage
+- Github: https://github.com/EleftheriaBatsou/Day41-54-WorkoutTracker-dailyUI/tree/master/100DaysOfDailyUI/41-54.WorkoutTracker
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/RzJmPy
+- Video: https://youtu.be/mm3ZQSW-ZvY
+- Extra helpful codepen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Combining themes: D41 Workout Tracker, 42 ToDo List, 43 Food/Drink Menu, 44 Favorites, 45 Info Card, 46 Invoice, 47 Activity Feed, 48 Coming Soon, 49 Notifications, 50 Job Listing, 51 Press Page, 52 Daily UI logo, 53 Header Navigation, 54 Confirm Reservation
+
+
+
+42.ToDo List
+43.Food/Drink Menu
+44.Favorites
+45.Info Card
+46.Invoice
+47.Activity Feed
+48.Coming Soon
+49.Notifications
+50.Job Listing
+51.Press Page
+-Design Hint...
+Create a Press Page. Think about who you are representing and what important information you should convey. Is it for a new startup? A huge global brand? A nonprofit organization? Or a small local business? Or is it actually for a person such as a celebrity, athlete, politician, etc.?
+52.Logo Design
+53.Header Navigation
+54. Confirm reservation
+Codepen: https://codepen.io/EleftheriaBatsou/pen/RzJmPy
+
+
+55.Icon Set
+56.Breadcrumbs
+57.Video Player
+58.Shopping Cart
+59.Background Pattern
+60.Color Picker
+61.reedem coupon
+- Technologies: AngularJs, MaterialUI
+- Basic angularjs dialog: https://material.angularjs.org/latest/demo/dialog
+- Shopping Cart Icon: https://cdn0.iconfinder.com/data/icons/typicons-2/24/shopping-cart-256.png
+- Play button Icon: https://cdn2.iconfinder.com/data/icons/music-media-player-outline-basic/32/1-icon-music-01-128.png
+- Github: https://github.com/EleftheriaBatsou/day55-61-videoFilter-dailyUI/tree/master/100DaysOfDailyUI/55-61.VideoFilter
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/OeaJwe
+- Video: https://youtu.be/cFFCO-BuXrk
+- Combining themes: D55-Icon Set, 57-Breadcrumbs, 57-Video Player, 58-Shopping Cart, 59-Background Pattern, 60-Color Picker, 61-reedem coupon
+
+
+62.Workout of the day
+63.Best of 2015
+64.Select User Type
+65.Notes Widget
+66.Statistics
+- Technologies: AngularJs, MaterialUI
+- Helpful pen 1 (day 16): https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Helpful pen 2 (day 55): https://codepen.io/EleftheriaBatsou/pen/OeaJwe
+- Workout gif 1: https://media1.popsugar-assets.com/files/thumbor/XJJEB1cIhAyU5K9tzgJidhvzxVM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/13/738/n/1922729/87033ecd04363271_standingab.gif
+- Workout gif 2: https://ne-kurim.ru/forum/attachments/42e6a7cd223913a1_betterkneething-gif.764325/
+- Icons from: Iconfinder
+- Github: https://github.com/EleftheriaBatsou/day62to66-workoutOfTheDay-dailyUI/tree/master/100DaysOfDailyUI/62-66.WorkoutOfTheDay
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/gNVEgy
+- Video: https://youtu.be/2ihKU2E5Mcc
+- Combining themes: D62-Workout of the day, D63-Best of 2015, D64-Select User Type, D65-Notes Widget, D66-Statistics 
+
+
+67.Hotel Booking
+68.Flight Search
+69.Trending
+70.Event Listing
+71.Schedule
+Design: What are you creating a schedule for? Is it for a sports team? A band planning their concert tour? Is it a personal travel schedule?
+- Technologies: AngularJs, MaterialUI
+- Images from: https://unsplash.com/
+- Helpfull pen (day16): https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Helpfull pen (day25): https://codepen.io/EleftheriaBatsou/pen/VJpJvJ
+- Github: https://github.com/EleftheriaBatsou/day67to71-booking-dailyUI/tree/master/100DaysOfDailyUI/67-71.Booking
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/rXNJKX
+- Video: https://youtu.be/3dEko4NVrFA 
+- Combining themes: D67-Hotel Booking, D68-Flight Search, D69-Trending, D70-Event Listing, D71-Schedule
+
+
+72.Image Slider
+- Technologies:AngularJS, BootstrapUi
+- Images from: https://unsplash.com/
+- Github: https://github.com/EleftheriaBatsou/day72-imageSlider-dailyUI/tree/master/100DaysOfDailyUI/72.ImageSlider
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/EqjVMN
+- Video: https://youtu.be/WG3adVJTNpY
+
+
+73.Virtual Reality
+74.Download App
+75.Pre-Order
+76.Loading...
+77.Thank You
+78.Pending Invitation
+79.Itinerary
+- Technologies: AngularJs, MaterialUI
+- Basic angularjs dialog demo: https://material.angularjs.org/latest/demo/dialog
+- Helpful Pen: https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Image Used: https://unsplash.com/photos/FMArg2k3qOU
+- Itinerary Pen:https://codepen.io/EleftheriaBatsou/full/vgvXQK
+- Github: https://github.com/EleftheriaBatsou/day80to93-socialShare-dailyUI/tree/master/100DaysOfDailyUI/73-79.VirtualReality
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/zgGNoY 
+- Video: https://youtu.be/2fqLToYpadc
+- Combining themes: Day 73: Virtual Reality, Day 74 Download App, Day 75 Pre-Order, Day 76 Loading..., Day 77 Thank You, Day 78 Pending Invitation, Day 79 Itinerary
+
+80.Date Picker
+81.Status Update
+Design Hint...
+Create a status update for a social site, a flight planner, or something entirely unique.
+82.Form
+83.Button
+84.Badge
+85.Pagination
+86.Progress Bar
+87.Tooltip
+88.Avatar
+89.Terms of Service
+90.Create New
+91.Curated for You
+Design Hint:Think about a design with content that has been customized for an individual such as suggested music, movies, books, news, or a product selection.
+92. F.A.Q.
+93.Splash Screen
+- Technologies: AngularJs, MaterialUI
+- Basic angularjs tooltip demo: https://material.angularjs.org/latest/demo/tooltip
+- Avatar icon: https://www.shareicon.net/download/2015/12/14/207880_face_300x300.png
+- Badge icon: https://nssacademy.weebly.com/uploads/5/6/3/8/56384867/588881_orig.png
+- Github: https://github.com/EleftheriaBatsou/day80to93-socialShare-dailyUI/tree/master/100DaysOfDailyUI/80-93.SplashScreen
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/MNwood
+- Video: https://youtu.be/eZwWobDx7us
+- Combining projects: Day 80: Date Picker, Day 81: Status Update, Day 82: Form, Day 83: Button, Day 84: Badge, Day 85: Pagination, Day 86: Progress Bar, Day 87: Tooltip, Day 88: Avatar, Day 89: Terms of Service, Day 90: Create New, Day 91: Curated for You, Day 92: F.A.Q., Day 93: Splash Screen
+
+
+
+94.News
+95.Product Tour
+96.Currently In-Stock
+97.Giveaway
+98.Advertisement
+99.Categories
+- Technologies: AngularJs, MaterialUI
+- Helpful Pen 1: (day16) https://codepen.io/EleftheriaBatsou/pen/MMJdwb
+- Helpful Pen 2: (day62) https://codepen.io/EleftheriaBatsou/pen/gNVEgy
+- Image Used: https://methodhome.com/wp-content/uploads/laundry_p-v2-500x500.png
+- Github: https://github.com/EleftheriaBatsou/day94to99-productAdvertisment-dailyUI/tree/master/100DaysOfDailyUI/94-99.ProductAdvertisment
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/YmWXeO
+- Video: https://youtu.be/no_fDIGkGdM
+- Combining projects: Day 94: News, Day 95: Product Tour, Day 96: Currently In-Stock, Day 97: Giveaway, Day 98: Advertisement, Day 99: Categories
+
+
+100. Redesign Daily UI
+Landing Page
+Hint: Ok, yep I know you're thinking. And yes, it does seem a bit self-serving, but this has a few benefits. Firstly, we're all on this mission together. And the mission is to help make everyone be a better designer. 
+
+What would it take for a site's landing page to appeal specifically to designers? What would interest you? Oh, and another benefit is that if your design is super cool and others like it as well, then (with your permission) it'll be our inspiration for our new design. And in that case... you'll be proudly featured on our site.  
+
+- Technologies: AngularJs, MaterialUI
+- Github: https://github.com/EleftheriaBatsou/day100-recreatingDailyUI-dailyUI/tree/master/100DaysOfDailyUI/100.RecreatingDailyUI
+- Codepen: https://codepen.io/EleftheriaBatsou/pen/JgKwpd
+- Video: https://youtu.be/FKuEl1BXn-0
+
+
+
+-----------------------------------------------
+Portfolio with the 100 projects on codepen: https://codepen.io/EleftheriaBatsou/full/eodvrP
+
+Collection with the 100 projects on codepen: https://codepen.io/collection/nGZPgw/
+
+On gitHub: https://github.com/EleftheriaBatsou/day100-recreatingDailyUI-dailyUI/tree/master/100DaysOfDailyUI
+
+
+
