@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Day 72 - Image Slider - DailyUI</title>
+  <link rel='stylesheet' href='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.css'>
+<link rel='stylesheet' href='https://material.angularjs.org/1.1.18/docs.css'>
+<link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+</head>
+<body ng-app="MyApp" ng-controller="CarouselDemoCtrl">
+  <!-- Your HTML content here -->
+  
+  <!--------  Today's theme --------->
+  <div layout="row" class="theme" layout-align="center center">Day 72: Image Slider</div>
+
+  
+  <!--------  Working area --------->
+  <div class="working-area">
+    <!--     Day 72 - Image Slider -->
+    <div id="slides_control">    
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}">
+            <div class="carousel-caption">
+              <h4>Slide {{$index+1}}</h4>
+            </div>
+          </slide>
+        </carousel>   
+    </div>
+    
+      
+  </div>
+  
+  <!--------  Footer --------->
+  <div id="footer_container">
+    <div layout="row" layout-align="center center"><h3>Youtube tutorial <a href="https://youtu.be/WG3adVJTNpY" target="_blank"> here!</a></h3></div><br>
+    <div layout="row" layout-align="center center">Created by Eleftheria</div>
+    <div layout="row" layout-align="center center" class="footer">
+
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/39/39714.svg" class="footer_image" alt="linkedin" title="linkedin"></a> ~
+        <!-- Codepen -->
+        <a href="https://codepen.io/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/51/51767.svg" class="footer_image" alt="codepen" title="codepen"></a> ~
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/c/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733646.svg" class="footer_image" alt="youtube" title="youtube"></a> ~
+        <!-- Twitter -->
+        <a href="https://twitter.com/BatsouElef" target="_blank"><img src="https://image.flaticon.com/icons/svg/8/8800.svg" class="footer_image" alt="twitter" title="twitter"></a> ~
+        <!-- Github -->
+        <a href="https://github.com/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" class="footer_image" alt="github" title="github"></a> ~ 
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/69/69366.svg" class="footer_image" alt="instagram" title="instagram"></a> ~
+      <!-- Website -->
+        <a href="http://www.eleftheriabatsou.com" target="_blank"><img src="https://image.flaticon.com/icons/svg/484/484101.svg" class="footer_image" alt="website" title="website"></a>
+    </div>
+   </div>
+  
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-messages.min.js'></script>
+<script src='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.js'></script>
+<script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
