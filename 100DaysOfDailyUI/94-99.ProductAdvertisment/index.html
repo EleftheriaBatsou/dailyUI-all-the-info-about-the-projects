@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Day94to99 - Product Advertisment - DailyUI</title>
+  <link rel='stylesheet' href='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.css'>
+<link rel='stylesheet' href='https://material.angularjs.org/1.1.18/docs.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+</head>
+<body ng-app="MyApp" ng-controller="AppCtrl">
+  <!-- Your HTML content here -->
+  
+  <!--------  Today's theme --------->
+  <div layout="row" class="theme" layout-align="center center">Day 94: News, Day 95: Product Tour, Day 96: Currently In-Stock, Day 97: Giveaway, Day 98: Advertisement, Day 99: Categories</div>
+  
+  <!--------  Working area --------->
+  <div class="working-area">
+    
+    <div layout="row" layout-align="center center"><h2>Currently In Stock</h2></div>
+    
+    <div layout="row" layout-align="center center"><img src="https://methodhome.com/wp-content/uploads/laundry_p-v2-500x500.png"></div>
+    
+    
+    
+    <div layout="row" layout-align="space-around center">
+      <md-button ng-click="showAdvanced($event)" class="myButton">Giveaway</md-button>
+      <md-button  ng-click="showOptions($event)" class="myButton">News</md-button>
+      <md-button class="myButton"><a href="https://www.youtube.com/c/EleftheriaBatsou" target="_blank">Ads</a></md-button>
+      
+    </div>
+      
+  </div>
+  
+  <!--------  Footer --------->
+  <div id="footer_container">
+    <div layout="row" layout-align="center center"><h3>Youtube tutorial <a href="https://youtu.be/1SQZl5raVvY" target="_blank"> here!</a></h3></div><br>
+    <div layout="row" layout-align="center center">Created by Eleftheria</div>
+    <div layout="row" layout-align="center center" class="footer">
+
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/39/39714.svg" class="footer_image" alt="linkedin" title="linkedin"></a> ~
+        <!-- Codepen -->
+        <a href="https://codepen.io/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/51/51767.svg" class="footer_image" alt="codepen" title="codepen"></a> ~
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/c/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733646.svg" class="footer_image" alt="youtube" title="youtube"></a> ~
+        <!-- Twitter -->
+        <a href="https://twitter.com/BatsouElef" target="_blank"><img src="https://image.flaticon.com/icons/svg/8/8800.svg" class="footer_image" alt="twitter" title="twitter"></a> ~
+        <!-- Github -->
+        <a href="https://github.com/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" class="footer_image" alt="github" title="github"></a> ~ 
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/69/69366.svg" class="footer_image" alt="instagram" title="instagram"></a> ~
+      <!-- Website -->
+        <a href="http://www.eleftheriabatsou.com" target="_blank"><img src="https://image.flaticon.com/icons/svg/484/484101.svg" class="footer_image" alt="website" title="website"></a>
+    </div>
+   </div>
+  
+  <script type="text/ng-template" id="dialog1.tmpl.html"><md-dialog aria-label="">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Take part in the giveaway</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" style="width: auto;">
+    <form name="contactForm">
+      <span>Fill your info and you re good to go :)<br> As simple as that.</span>
+      
+      <div layout="row"> 
+        <md-input-container class="md-block">
+          <label>Name</label>
+          <input required="" name="name" ng-model="project.Name">
+          <div ng-messages="projectForm.Name.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+      </div>
+
+      <md-input-container class="md-block">
+        <label>Email</label>
+        <input required="" name="Email" ng-model="project.Email" minlength="4" maxlength="100" type="email">
+
+        <div ng-messages="projectForm.Email.$error" role="alert">
+          <div ng-message-exp="['required', 'minlength', 'maxlength']">
+            Your email must be between 4 and 100 characters long and look like an e-mail address.
+          </div>
+        </div>
+      </md-input-container>
+
+      <md-input-container class="md-block">
+        <md-checkbox name="tos" ng-model="project.tos" required="">
+          I accept the terms of service.
+        </md-checkbox>
+        <div ng-messages="projectForm.tos.$error" multiple="" md-auto-hide="false">
+          <div ng-message="required">
+            You must accept the terms of service before you can proceed.
+          </div>
+        </div>
+      </md-input-container>
+
+    <md-dialog-actions layout="row">
+      <md-button type="submit" class="myButton">I am in</md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>
+</script>
+  
+  <script type="text/ng-template" id="dialog2.tmpl.html">
+  <md-dialog>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Choose your category</h2>
+        
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div layout="column" layout-align="center center">
+        <md-select placeholder="Please select" ng-model="user" md-on-open="loadUsers()" style="min-width: 200px;">
+          <md-option ng-value="user" ng-repeat="user in users">{{user.name}}</md-option>
+        </md-select>
+        <p class="md-caption">You have choose: {{ user ? user.name : 'Nothing yet' }}</p>
+      </div>
+
+     
+    </md-dialog-content>
+
+    
+  </form>
+</md-dialog>
+  </script>
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-animate.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-route.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-aria.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-messages.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>
+<script src='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
