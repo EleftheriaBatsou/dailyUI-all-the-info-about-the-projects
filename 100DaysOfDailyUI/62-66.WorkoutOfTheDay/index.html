@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Day 62,63,64,65,66 - DailyUI</title>
+  <link rel='stylesheet' href='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.css'>
+<link rel='stylesheet' href='https://material.angularjs.org/1.1.18/docs.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+</head>
+<body ng-app="MyApp" ng-controller="AppCtrl">
+  <!-- Your HTML content here -->
+  
+  <!--------  Today's theme --------->
+  <div layout="row" class="theme" layout-align="center center">62.Workout of the day, 63.Best of 2015, 64.Select User Type, 65.Notes Widget, 66.Statistics</div>
+
+  
+  <!--------  Working area --------->
+  <div class="working-area">
+    
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h3 >
+          Workout Of the day
+        </h3>
+      </div>
+    </md-toolbar>
+    
+    <div layout="row" layout-align="center center">
+      <img src="https://media1.popsugar-assets.com/files/thumbor/XJJEB1cIhAyU5K9tzgJidhvzxVM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/04/13/738/n/1922729/87033ecd04363271_standingab.gif">
+    </div>
+    
+    <md-toolbar style="margin-top: 12px;">
+      <div class="md-toolbar-tools">
+        <h3 >
+          Best workout of 2015
+        </h3>
+      </div>
+    </md-toolbar>
+    
+    <div layout="row" layout-align="center center"><img src="https://ne-kurim.ru/forum/attachments/42e6a7cd223913a1_betterkneething-gif.764325/"></div>
+    
+    <div ng-if="status" id="status">
+      <b layout="row" layout-align="center center" class="md-padding">
+        {{status}}
+      </b>
+    </div>
+    
+    <div layout="row" layout-align="space-between center">
+      <span ng-click="showPrompt($event)"><img class="icons" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/notes_add-256.png"></span>
+      <span ng-click="showAdvanced($event)"><img class="icons" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/statistics-256.png"></span>
+      <span ng-click="showOptions($event)"><img class="icons" src="https://cdn4.iconfinder.com/data/icons/app-custom-ui-1/48/Account-256.png"></span>
+    </div>
+      
+  </div>
+  
+  <!--------  Footer --------->
+  <div id="footer_container">
+    <div layout="row" layout-align="center center"><h3>Youtube tutorial <a href="https://youtu.be/1SQZl5raVvY" target="_blank"> here!</a></h3></div><br>
+    <div layout="row" layout-align="center center">Created by Eleftheria</div>
+    <div layout="row" layout-align="center center" class="footer">
+
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/39/39714.svg" class="footer_image" alt="linkedin" title="linkedin"></a> ~
+        <!-- Codepen -->
+        <a href="https://codepen.io/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/51/51767.svg" class="footer_image" alt="codepen" title="codepen"></a> ~
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/c/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733646.svg" class="footer_image" alt="youtube" title="youtube"></a> ~
+        <!-- Twitter -->
+        <a href="https://twitter.com/BatsouElef" target="_blank"><img src="https://image.flaticon.com/icons/svg/8/8800.svg" class="footer_image" alt="twitter" title="twitter"></a> ~
+        <!-- Github -->
+        <a href="https://github.com/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" class="footer_image" alt="github" title="github"></a> ~ 
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/69/69366.svg" class="footer_image" alt="instagram" title="instagram"></a> ~
+      <!-- Website -->
+        <a href="http://www.eleftheriabatsou.com" target="_blank"><img src="https://image.flaticon.com/icons/svg/484/484101.svg" class="footer_image" alt="website" title="website"></a>
+    </div>
+   </div>
+ 
+  <script type="text/ng-template" id="dialog1.tmpl.html">
+  <md-dialog>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Statistics</h2>
+        
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum. Ipsum suspendisse ultrices gravida dictum fusce. Tristique magna sit amet purus gravida quis blandit turpis cursus. Magna etiam tempor orci eu lobortis elementum nibh tellus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc. Fermentum odio eu feugiat pretium. Tellus molestie nunc non blandit massa enim nec dui. Cras sed felis eget velit aliquet sagittis id. Elit scelerisque mauris pellentesque pulvinar pellentesque. Nisi lacus sed viverra tellus in hac habitasse. Ornare lectus sit amet est placerat in egestas erat imperdiet. Sem et tortor consequat id. Tellus molestie nunc non blandit massa enim nec. Turpis tincidunt id aliquet risus feugiat in ante. Mi bibendum neque egestas congue quisque egestas. Massa ultricies mi quis hendrerit.
+</p><p>
+Diam quis enim lobortis scelerisque fermentum. Ac tortor dignissim convallis aenean et tortor. Purus faucibus ornare suspendisse sed nisi lacus. Aliquam ut porttitor leo a diam sollicitudin tempor id. Leo duis ut diam quam nulla porttitor massa id. Eu ultrices vitae auctor eu augue ut lectus. Id cursus metus aliquam eleifend mi in. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. At consectetur lorem donec massa sapien faucibus et molestie. At volutpat diam ut venenatis tellus. Dignissim diam quis enim lobortis scelerisque. Quisque non tellus orci ac auctor augue mauris augue. Tincidunt dui ut ornare lectus sit. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Pretium viverra suspendisse potenti nullam. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Aliquet risus feugiat in ante metus dictum at tempor commodo. Facilisis sed odio morbi quis commodo odio. Enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Gravida neque convallis a cras semper.</p>
+    
+    
+    <div ng-controller="SelectAsyncController" layout="column" layout-align="center center" style="padding:40px" ng-cloak>
+  <p>Select can call an arbitrary function on show. If this function returns a promise, it will display a loading indicator while it is being resolved:</p>
+  <div layout="column" layout-align="center center">
+    <md-select placeholder="Assign to user" ng-model="user" md-on-open="loadUsers()" style="min-width: 200px;">
+      <md-option ng-value="user" ng-repeat="user in users">{{user.name}}</md-option>
+    </md-select>
+    <p class="md-caption">You have assigned the task to: {{ user ? user.name : 'No one yet' }}</p>
+  </div>
+</div>
+     
+    </md-dialog-content>
+
+    
+  </form>
+</md-dialog>
+  </script>
+  
+  <script type="text/ng-template" id="dialog2.tmpl.html">
+  <md-dialog>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Choose your category</h2>
+        
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div layout="column" layout-align="center center">
+        <md-select placeholder="Please select" ng-model="user" md-on-open="loadUsers()" style="min-width: 200px;">
+          <md-option ng-value="user" ng-repeat="user in users">{{user.name}}</md-option>
+        </md-select>
+        <p class="md-caption">You have choose: {{ user ? user.name : 'Nothing yet' }}</p>
+      </div>
+
+     
+    </md-dialog-content>
+
+    
+  </form>
+</md-dialog>
+  </script>
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-animate.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-route.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-aria.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-messages.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>
+<script src='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
