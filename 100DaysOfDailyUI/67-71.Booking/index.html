@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Days 67to71 | Booking | DailyUI</title>
+  <link rel='stylesheet' href='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.css'>
+<link rel='stylesheet' href='https://material.angularjs.org/1.1.18/docs.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.12/angular-material.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cute+Font" rel="stylesheet">
+</head>
+<body ng-app="MyApp" ng-controller="SubheaderAppCtrl">
+  <!-- Your HTML content here -->
+  
+  <!--------  Today's theme --------->
+  <div layout="row" class="theme" layout-align="center center">Day 67: Hotel Booking, Day 68: Flight Search, Day 69: Trending, Day 70: Event Listing, Day 71: Schedule</div>
+
+  
+  <!--------  Working area --------->
+  <div class="working-area">
+    <md-toolbar>
+      <div class="md-toolbar-tools">       
+        Next Destination
+      </div>
+    </md-toolbar>
+    
+    <md-content style="height: 500px;" md-theme="altTheme">
+<!-- ---------    Trending Destinations   ------------- -->
+    <section>
+      <md-subheader class="md-primary">Trending Destinations</md-subheader>
+      <md-list layout-padding="">
+        <md-list-item class="md-3-line" ng-repeat="message in messages">
+          
+          <img ng-src="{{message.destination}}?{{$index}}" class="destination" alt="{{message.best_for}}">
+          <div flex="" class="md-list-item-text">
+            <h3>{{message.country}}</h3>
+            <h4>{{message.city}}</h4>
+            <p>{{message.best_for}}</p>
+          </div>
+
+          <md-divider></md-divider>
+        </md-list-item>
+      </md-list>
+    </section>
+      
+<!-- ---------    Event Listing / Schedule ---------   -->
+    <section>
+      <md-subheader class="md-primary">Things to do</md-subheader>
+      <md-list layout-padding="">
+        <md-list-item class="md-3-line" ng-repeat="message in messages">
+          <img ng-src="{{message.destination}}?{{$index}}" class="destination" alt="{{message.best_for}}">
+          <div flex="" class="md-list-item-text">
+            <h3>{{message.country}}</h3>
+            <p>{{message.notes}}</p>
+          </div>
+          <md-divider></md-divider>
+        </md-list-item>
+      </md-list>
+    </section>
+      
+  </md-content>
+
+ 
+    <div layout="row" layout-align="space-around center">
+      <md-button flex="50" ng-click="showHotels($event)" class="submitButton">Hotels</md-button>
+      <md-button flex="50" ng-click="showFlights($event)" class="submitButton">Flights</md-button>
+    </div>
+      
+  </div>
+  
+  <!--------  Footer --------->
+  <div id="footer_container">
+    <div layout="row" layout-align="center center"><h3>Youtube tutorial <a href="https://youtu.be/3dEko4NVrFA " target="_blank"> here!</a></h3></div><br>
+    <div layout="row" layout-align="center center">Created by Eleftheria</div>
+    <div layout="row" layout-align="center center" class="footer">
+
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/39/39714.svg" class="footer_image" alt="linkedin" title="linkedin"></a> ~
+        <!-- Codepen -->
+        <a href="https://codepen.io/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/51/51767.svg" class="footer_image" alt="codepen" title="codepen"></a> ~
+        <!-- Youtube -->
+        <a href="https://www.youtube.com/c/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/733/733646.svg" class="footer_image" alt="youtube" title="youtube"></a> ~
+        <!-- Twitter -->
+        <a href="https://twitter.com/BatsouElef" target="_blank"><img src="https://image.flaticon.com/icons/svg/8/8800.svg" class="footer_image" alt="twitter" title="twitter"></a> ~
+        <!-- Github -->
+        <a href="https://github.com/EleftheriaBatsou" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" class="footer_image" alt="github" title="github"></a> ~ 
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/eleftheriabatsou/" target="_blank"><img src="https://image.flaticon.com/icons/svg/69/69366.svg" class="footer_image" alt="instagram" title="instagram"></a> ~
+      <!-- Website -->
+        <a href="http://www.eleftheriabatsou.com" target="_blank"><img src="https://image.flaticon.com/icons/svg/484/484101.svg" class="footer_image" alt="website" title="website"></a>
+    </div>
+   </div>
+  
+  <script type="text/ng-template" id="dialog.tmpl.html"><md-dialog aria-label="Hotels">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <span flex></span>
+        <h2>Search for Hotels</h2>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" style="width: auto;">
+        <form name="hotelForm">
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>Country</label>
+              <input name="Country" ng-model="project.Country">
+            </md-input-container>
+
+            <md-input-container class="md-block">
+              <label>City</label>
+              <input required="" name="City" ng-model="project.City">
+            </md-input-container>
+          </div>
+    
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>Check-in</label>
+              <input type="date" name="Check-in" ng-model="project.Check-in">
+            </md-input-container>
+
+            <md-input-container class="md-block">
+              <label>Check-out</label>
+              <input type="date" name="Check-out" ng-model="project.Check-out">
+            </md-input-container>
+          </div>
+    
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>Adults</label>
+              <input required="" type="number" name="Adults" ng-model="project.Adults">
+            </md-input-container>
+    
+            <md-input-container class="md-block">
+              <label>Kids</label>
+              <input required="" type="number" name="Kids" ng-model="project.Kids">
+            </md-input-container>
+          </div>
+
+          <md-input-container class="md-block">
+          <label>Visitor's Email</label>
+          <input name="clientEmail" ng-model="project.clientEmail" minlength="4" maxlength="100" type="email">
+
+          <div ng-messages="projectForm.clientEmail.$error" role="alert">
+            <div ng-message-exp="['required', 'minlength', 'maxlength']">
+              Your email must be between 4 and 100 characters long and look like an e-mail address.
+            </div>
+          </div>
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <md-checkbox name="tos" ng-model="project.tos" required="">
+            I accept the terms of service.
+          </md-checkbox>
+          <div ng-messages="projectForm.tos.$error" multiple="" md-auto-hide="false">
+            <div ng-message="required">
+              You must accept the terms of service before you can proceed.
+            </div>
+          </div>
+        </md-input-container>
+
+        <md-dialog-actions layout="row">
+          <md-button type="submit" class="submitButton">Search Hotels</md-button>
+        </md-dialog-actions>
+      </form>
+    </md-dialog>
+</script>
+  
+  <script type="text/ng-template" id="dialog2.tmpl.html"><md-dialog aria-label="Flights">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <span flex></span>
+        <h2>Search for Flights</h2>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content" style="width: auto;">
+        <form name="FlightsForm">
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>From (airport)</label>
+              <input required="" name="From" ng-model="project.From">
+            </md-input-container>
+
+            <md-input-container class="md-block">
+              <label>To (city or airport)</label>
+              <input required="" name="To" ng-model="project.To">
+            </md-input-container>
+          </div>
+    
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>Departure</label>
+              <input type="date" name="Check-in" ng-model="project.Check-in">
+            </md-input-container>
+
+            <md-input-container class="md-block">
+              <label>Arrival</label>
+              <input type="date" name="Check-out" ng-model="project.Check-out">
+            </md-input-container>
+          </div>
+    
+          <div layout="row">
+            <md-input-container class="md-block">
+              <label>Adults</label>
+              <input required="" type="number" name="Adults" ng-model="project.Adults">
+            </md-input-container>
+    
+            <md-input-container class="md-block">
+              <label>Kids</label>
+              <input required="" type="number" name="Kids" ng-model="project.Kids">
+            </md-input-container>
+          </div>
+
+          <md-input-container class="md-block">
+          <label>Visitor's Email</label>
+          <input name="clientEmail" ng-model="project.clientEmail" minlength="4" maxlength="100" type="email">
+
+          <div ng-messages="projectForm.clientEmail.$error" role="alert">
+            <div ng-message-exp="['required', 'minlength', 'maxlength']">
+              Your email must be between 4 and 100 characters long and look like an e-mail address.
+            </div>
+          </div>
+        </md-input-container>
+
+        <md-input-container class="md-block">
+          <md-checkbox name="tos" ng-model="project.tos" required="">
+            I accept the terms of service.
+          </md-checkbox>
+          <div ng-messages="projectForm.tos.$error" multiple="" md-auto-hide="false">
+            <div ng-message="required">
+              You must accept the terms of service before you can proceed.
+            </div>
+          </div>
+        </md-input-container>
+
+        <md-dialog-actions layout="row">
+          <md-button type="submit" class="submitButton">Search Flights</md-button>
+        </md-dialog-actions>
+      </form>
+    </md-dialog>
+</script>  
+
+</body>
+</html>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-animate.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-route.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-aria.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular-messages.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-114/svg-assets-cache.js'></script>
+<script src='https://gitcdn.xyz/cdn/angular/bower-material/v1.1.18/angular-material.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
